@@ -1,7 +1,4 @@
-
 export function Welcome() {
-
-
 
   return (
     <main >
@@ -24,7 +21,7 @@ export function Welcome() {
           
   
           
-      <div className=" flex flex-col justify-between min-h-[calc(104.4vh-106px)] bg-red-100"> 
+      <div className=" flex flex-col justify-between min-h-[calc(104.4vh-106px)] bg-gradient-to-r from-red-100 to-red-200"> 
         <div className="flex h-20 items-center bg-white mx-10 mt-10 rounded-lg p-4">
           <form className="w-full relative">
              <input 
@@ -83,7 +80,7 @@ export function Welcome() {
       
     
     <div className=" ">
-      <p className=" p-3 flex justify-center  text-gray-500 text-sm mt-4 bg-blue-900">Pokedex ° React + tailwind</p>
+      <p className=" p-3 flex justify-center  text-gray-300 text-sm mt-4 bg-blue-900">Pokedex ° React + tailwind</p>
     </div>
   </div> 
    
